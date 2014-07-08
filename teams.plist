@@ -6,6 +6,77 @@
 	<array>
 		<dict>
 			<key>name</key>
+			<string>Boston Celtics</string>
+			<key>rating</key>
+			<string>8</string>
+			<key>icon</key>
+			<string>Boston_Celtics_Logo</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string>50</string>
+					<key>name</key>
+					<string>Anthony, Joel</string>
+					<key>scores</key>
+					<string>11</string>
+					<key>info</key>
+					<string>1982–08–09</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string>52</string>
+					<key>name</key>
+					<string>Babb, Chris</string>
+					<key>scores</key>
+					<string>9</string>
+					<key>info</key>
+					<string>1990–02–14</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string>30</string>
+					<key>name</key>
+					<string>Bass, Brandon</string>
+					<key>scores</key>
+					<string>15</string>
+					<key>info</key>
+					<string>1985–04–30</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string>11</string>
+					<key>name</key>
+					<string>Bayless, Jerryd</string>
+					<key>scores</key>
+					<string>18</string>
+					<key>info</key>
+					<string>1988–08–20</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string>4</string>
+					<key>name</key>
+					<string>Bogans, Keith</string>
+					<key>scores</key>
+					<string>10</string>
+					<key>info</key>
+					<string>1980–05–12</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string></string>
 			<key>rating</key>
 			<string></string>
@@ -14,6 +85,22 @@
 			<key>players</key>
 			<array>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -24,6 +111,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -34,6 +123,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -44,16 +135,8 @@
 					<string></string>
 				</dict>
 				<dict>
-					<key>number</key>
+					<key>photo</key>
 					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -75,6 +158,22 @@
 			<key>players</key>
 			<array>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -85,6 +184,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -95,6 +196,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -105,77 +208,8 @@
 					<string></string>
 				</dict>
 				<dict>
-					<key>number</key>
+					<key>photo</key>
 					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string></string>
-			<key>rating</key>
-			<string></string>
-			<key>icon</key>
-			<string></string>
-			<key>players</key>
-			<array>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -197,6 +231,22 @@
 			<key>players</key>
 			<array>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -207,6 +257,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -217,6 +269,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -227,77 +281,8 @@
 					<string></string>
 				</dict>
 				<dict>
-					<key>number</key>
+					<key>photo</key>
 					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string></string>
-			<key>rating</key>
-			<string></string>
-			<key>icon</key>
-			<string></string>
-			<key>players</key>
-			<array>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -319,6 +304,22 @@
 			<key>players</key>
 			<array>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -329,6 +330,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -339,6 +342,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -349,77 +354,8 @@
 					<string></string>
 				</dict>
 				<dict>
-					<key>number</key>
+					<key>photo</key>
 					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string></string>
-			<key>rating</key>
-			<string></string>
-			<key>icon</key>
-			<string></string>
-			<key>players</key>
-			<array>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -441,6 +377,22 @@
 			<key>players</key>
 			<array>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -451,6 +403,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -461,6 +415,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -471,77 +427,8 @@
 					<string></string>
 				</dict>
 				<dict>
-					<key>number</key>
+					<key>photo</key>
 					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string></string>
-			<key>rating</key>
-			<string></string>
-			<key>icon</key>
-			<string></string>
-			<key>players</key>
-			<array>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>number</key>
-					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -563,6 +450,22 @@
 			<key>players</key>
 			<array>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -573,6 +476,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -583,6 +488,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -593,16 +500,8 @@
 					<string></string>
 				</dict>
 				<dict>
-					<key>number</key>
+					<key>photo</key>
 					<string></string>
-					<key>name</key>
-					<string></string>
-					<key>scores</key>
-					<string></string>
-					<key>info</key>
-					<string></string>
-				</dict>
-				<dict>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -624,6 +523,22 @@
 			<key>players</key>
 			<array>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -634,6 +549,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -644,6 +561,8 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -654,6 +573,45 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>rating</key>
+			<string></string>
+			<key>icon</key>
+			<string></string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>
@@ -664,6 +622,251 @@
 					<string></string>
 				</dict>
 				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>rating</key>
+			<string></string>
+			<key>icon</key>
+			<string></string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>rating</key>
+			<string></string>
+			<key>icon</key>
+			<string></string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>rating</key>
+			<string></string>
+			<key>icon</key>
+			<string></string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>New item</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
+					<key>number</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>scores</key>
+					<string></string>
+					<key>info</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string></string>
 					<key>number</key>
 					<string></string>
 					<key>name</key>

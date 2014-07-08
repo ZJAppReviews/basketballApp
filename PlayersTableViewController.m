@@ -1,23 +1,24 @@
 //
-//  TeamsTableViewController.m
+//  PlayersTableViewController.m
 //  Story
 //
 //  Created by Roman Serga on 7/8/14.
 //  Copyright (c) 2014 Roman Serga. All rights reserved.
 //
 
-#import "TeamsTableViewController.h"
+#import "PlayersTableViewController.h"
 
-@interface TeamsTableViewController ()
+@interface PlayersTableViewController ()
 
 @end
 
-@implementation TeamsTableViewController
+@implementation PlayersTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
+        // Custom initialization
     }
     return self;
 }
@@ -25,9 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"teamsTest" ofType:@"plist"];
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    self.teams = [NSMutableArray arrayWithArray: [dict objectForKey:@"Teams"]];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -50,29 +49,29 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.teams count];
-    return 0;
+    return [self.players count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TeamCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell" forIndexPath:indexPath];
     
-    UIImageView *teamLogo = (UIImageView*)[cell viewWithTag:0];
-    NSString *path = [[NSBundle mainBundle] pathForResource:[[self.teams objectAtIndex:indexPath.row]objectForKey:@"icon"] ofType:@"png"];
-    teamLogo.image = [UIImage imageWithContentsOfFile:path];
+    UIImageView *playerPhoto = (UIImageView*)[cell viewWithTag:0];
+    NSString *path = [[NSBundle mainBundle] pathForResource:[[self.players objectAtIndex:indexPath.row]objectForKey:@"photo"] ofType:@"png"];
+    playerPhoto.image = [UIImage imageWithContentsOfFile:path];
     
     UILabel *nameLabel = (UILabel*)[cell viewWithTag:1];
-    nameLabel.text = [[self.teams objectAtIndex:indexPath.row]objectForKey:@"name"];
+    nameLabel.text = [[self.players objectAtIndex:indexPath.row]objectForKey:@"name"];
     
-    UILabel *ratingLabel = (UILabel*)[cell viewWithTag:2];
-    ratingLabel.text = [[self.teams objectAtIndex:indexPath.row]objectForKey:@"rating"];
+    UILabel *scoresLabel = (UILabel*)[cell viewWithTag:2];
+    scoresLabel.text = [[self.players objectAtIndex:indexPath.row]objectForKey:@"scores"];
     
     cell.tag = indexPath.row;
     
     return cell;
 }
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -111,14 +110,15 @@
 }
 */
 
-
+/*
 #pragma mark - Navigation
 
+// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    PlayersTableViewController *players = segue.destinationViewController;
-    UITableViewCell *cell = (UITableViewCell*)sender;
-    players.players = [[self.teams objectAtIndex:cell.tag]objectForKey:@"players"];
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
+*/
 
 @end

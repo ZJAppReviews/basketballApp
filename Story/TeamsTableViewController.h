@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayersTableViewController.h"
 
 @interface TeamsTableViewController : UITableViewController
 

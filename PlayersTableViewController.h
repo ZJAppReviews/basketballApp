@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayerDetailTableViewController.h"
 
 @interface PlayersTableViewController : UITableViewController
 

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91DCCE1196C15610002E931 /* PlayerDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91DCCE0196C15610002E931 /* PlayerDetailTableViewController.m */; };
+		E91DCCE3196C18F10002E931 /* Boston_Celtics_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE2196C18F10002E931 /* Boston_Celtics_Logo.png */; };
+		E91DCCE9196C19750002E931 /* BrandonBass.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE4196C19750002E931 /* BrandonBass.png */; };
+		E91DCCEA196C19750002E931 /* JoelAnthony.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE5196C19750002E931 /* JoelAnthony.png */; };
+		E91DCCEB196C19750002E931 /* ChrisBabb.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE6196C19750002E931 /* ChrisBabb.png */; };
+		E91DCCEC196C19750002E931 /* JerrydBayless.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE7196C19750002E931 /* JerrydBayless.png */; };
+		E91DCCED196C19750002E931 /* KeithBogans.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE8196C19750002E931 /* KeithBogans.png */; };
 		E950C6F8196AF3EE00DEBED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6F7196AF3EE00DEBED7 /* Foundation.framework */; };
 		E950C6FA196AF3EE00DEBED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6F9196AF3EE00DEBED7 /* CoreGraphics.framework */; };
 		E950C6FC196AF3EE00DEBED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6FB196AF3EE00DEBED7 /* UIKit.framework */; };
@@ -26,7 +33,6 @@
 		E950C775196BE9E100DEBED7 /* TeamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950C774196BE9E100DEBED7 /* TeamsTableViewController.m */; };
 		E950C778196BEB9000DEBED7 /* teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = E950C777196BEB9000DEBED7 /* teams.plist */; };
 		E950C77A196BF72100DEBED7 /* teamsTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = E950C779196BF72100DEBED7 /* teamsTest.plist */; };
-		E950C77C196BF7CB00DEBED7 /* Boston_Celtics_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E950C77B196BF7CB00DEBED7 /* Boston_Celtics_Logo.png */; };
 		E950C780196BFBAC00DEBED7 /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950C77F196BFBAC00DEBED7 /* PlayersTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E91DCCDF196C15610002E931 /* PlayerDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailTableViewController.h; sourceTree = "<group>"; };
+		E91DCCE0196C15610002E931 /* PlayerDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailTableViewController.m; sourceTree = "<group>"; };
+		E91DCCE2196C18F10002E931 /* Boston_Celtics_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boston_Celtics_Logo.png; sourceTree = "<group>"; };
+		E91DCCE4196C19750002E931 /* BrandonBass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrandonBass.png; sourceTree = "<group>"; };
+		E91DCCE5196C19750002E931 /* JoelAnthony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoelAnthony.png; sourceTree = "<group>"; };
+		E91DCCE6196C19750002E931 /* ChrisBabb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChrisBabb.png; sourceTree = "<group>"; };
+		E91DCCE7196C19750002E931 /* JerrydBayless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JerrydBayless.png; sourceTree = "<group>"; };
+		E91DCCE8196C19750002E931 /* KeithBogans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeithBogans.png; sourceTree = "<group>"; };
 		E950C6F4196AF3EE00DEBED7 /* Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E950C6F7196AF3EE00DEBED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E950C6F9196AF3EE00DEBED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +80,6 @@
 		E950C774196BE9E100DEBED7 /* TeamsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamsTableViewController.m; path = Story/TeamsTableViewController.m; sourceTree = "<group>"; };
 		E950C777196BEB9000DEBED7 /* teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = teams.plist; sourceTree = "<group>"; };
 		E950C779196BF72100DEBED7 /* teamsTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = teamsTest.plist; sourceTree = "<group>"; };
-		E950C77B196BF7CB00DEBED7 /* Boston_Celtics_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boston_Celtics_Logo.png; sourceTree = "<group>"; };
 		E950C77E196BFBAC00DEBED7 /* PlayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersTableViewController.h; sourceTree = "<group>"; };
 		E950C77F196BFBAC00DEBED7 /* PlayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +108,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91DCCEE196C197C0002E931 /* Boston */ = {
+			isa = PBXGroup;
+			children = (
+				E91DCCE6196C19750002E931 /* ChrisBabb.png */,
+				E91DCCE7196C19750002E931 /* JerrydBayless.png */,
+				E91DCCE8196C19750002E931 /* KeithBogans.png */,
+				E91DCCE4196C19750002E931 /* BrandonBass.png */,
+				E91DCCE5196C19750002E931 /* JoelAnthony.png */,
+				E91DCCE2196C18F10002E931 /* Boston_Celtics_Logo.png */,
+			);
+			name = Boston;
+			sourceTree = "<group>";
+		};
 		E950C6EB196AF3EE00DEBED7 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +199,7 @@
 		E950C76E196BE83300DEBED7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E91DCCEE196C197C0002E931 /* Boston */,
 				E950C76F196BE8B700DEBED7 /* 1404827489_icon-play.png */,
 				E950C770196BE8B700DEBED7 /* 1404827508_basketball.png */,
 			);
@@ -186,19 +213,12 @@
 				E950C774196BE9E100DEBED7 /* TeamsTableViewController.m */,
 				E950C77E196BFBAC00DEBED7 /* PlayersTableViewController.h */,
 				E950C77F196BFBAC00DEBED7 /* PlayersTableViewController.m */,
+				E91DCCDF196C15610002E931 /* PlayerDetailTableViewController.h */,
+				E91DCCE0196C15610002E931 /* PlayerDetailTableViewController.m */,
 				E950C777196BEB9000DEBED7 /* teams.plist */,
 				E950C779196BF72100DEBED7 /* teamsTest.plist */,
-				E950C77D196BF7DF00DEBED7 /* Images */,
 			);
 			name = UIControls;
-			sourceTree = "<group>";
-		};
-		E950C77D196BF7DF00DEBED7 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				E950C77B196BF7CB00DEBED7 /* Boston_Celtics_Logo.png */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,11 +298,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E950C710196AF3EE00DEBED7 /* Images.xcassets in Resources */,
+				E91DCCED196C19750002E931 /* KeithBogans.png in Resources */,
 				E950C77A196BF72100DEBED7 /* teamsTest.plist in Resources */,
+				E91DCCEB196C19750002E931 /* ChrisBabb.png in Resources */,
 				E950C772196BE8B700DEBED7 /* 1404827508_basketball.png in Resources */,
+				E91DCCE9196C19750002E931 /* BrandonBass.png in Resources */,
 				E950C771196BE8B700DEBED7 /* 1404827489_icon-play.png in Resources */,
+				E91DCCEA196C19750002E931 /* JoelAnthony.png in Resources */,
 				E950C778196BEB9000DEBED7 /* teams.plist in Resources */,
-				E950C77C196BF7CB00DEBED7 /* Boston_Celtics_Logo.png in Resources */,
+				E91DCCEC196C19750002E931 /* JerrydBayless.png in Resources */,
+				E91DCCE3196C18F10002E931 /* Boston_Celtics_Logo.png in Resources */,
 				E950C702196AF3EE00DEBED7 /* InfoPlist.strings in Resources */,
 				E950C70B196AF3EE00DEBED7 /* Main.storyboard in Resources */,
 			);
@@ -304,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E950C70E196AF3EE00DEBED7 /* ViewController.m in Sources */,
+				E91DCCE1196C15610002E931 /* PlayerDetailTableViewController.m in Sources */,
 				E950C708196AF3EE00DEBED7 /* AppDelegate.m in Sources */,
 				E950C775196BE9E100DEBED7 /* TeamsTableViewController.m in Sources */,
 				E950C780196BFBAC00DEBED7 /* PlayersTableViewController.m in Sources */,

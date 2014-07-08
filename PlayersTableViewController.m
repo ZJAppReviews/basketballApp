@@ -110,15 +110,15 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+ PlayerDetailTableViewController *nextVC = segue.destinationViewController;
+ UITableViewCell *cell = (UITableViewCell*)sender;
+ nextVC.player = [self.players objectAtIndex:cell.tag];
 }
-*/
+
 
 @end

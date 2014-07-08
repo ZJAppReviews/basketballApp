@@ -25,7 +25,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"teamsTest" ofType:@"plist"];
+    NSString *path =[[NSBundle mainBundle] pathForResource:@"teams" ofType:@"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
     self.teams = [NSMutableArray arrayWithArray: [dict objectForKey:@"Teams"]];
     // Uncomment the following line to preserve selection between presentations.

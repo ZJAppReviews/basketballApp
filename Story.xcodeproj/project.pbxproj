@@ -14,6 +14,12 @@
 		E91DCCEB196C19750002E931 /* ChrisBabb.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE6196C19750002E931 /* ChrisBabb.png */; };
 		E91DCCEC196C19750002E931 /* JerrydBayless.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE7196C19750002E931 /* JerrydBayless.png */; };
 		E91DCCED196C19750002E931 /* KeithBogans.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCE8196C19750002E931 /* KeithBogans.png */; };
+		E91DCCF1196C1AB50002E931 /* 200px-Brooklyn_Nets_newlogo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCF0196C1AB50002E931 /* 200px-Brooklyn_Nets_newlogo.svg.png */; };
+		E91DCCF3196C1B700002E931 /* AlanAnderson.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCF2196C1B700002E931 /* AlanAnderson.png */; };
+		E91DCCF5196C1BB20002E931 /* AndrayBlatche.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCF4196C1BB20002E931 /* AndrayBlatche.png */; };
+		E91DCCF7196C1BD30002E931 /* JasonCollins.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCF6196C1BD30002E931 /* JasonCollins.png */; };
+		E91DCCF9196C1C430002E931 /* KevinGarnett.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCF8196C1C430002E931 /* KevinGarnett.png */; };
+		E91DCCFB196C1C670002E931 /* MarkelBrown.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCFA196C1C670002E931 /* MarkelBrown.png */; };
 		E950C6F8196AF3EE00DEBED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6F7196AF3EE00DEBED7 /* Foundation.framework */; };
 		E950C6FA196AF3EE00DEBED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6F9196AF3EE00DEBED7 /* CoreGraphics.framework */; };
 		E950C6FC196AF3EE00DEBED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6FB196AF3EE00DEBED7 /* UIKit.framework */; };
@@ -55,6 +61,12 @@
 		E91DCCE6196C19750002E931 /* ChrisBabb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChrisBabb.png; sourceTree = "<group>"; };
 		E91DCCE7196C19750002E931 /* JerrydBayless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JerrydBayless.png; sourceTree = "<group>"; };
 		E91DCCE8196C19750002E931 /* KeithBogans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeithBogans.png; sourceTree = "<group>"; };
+		E91DCCF0196C1AB50002E931 /* 200px-Brooklyn_Nets_newlogo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Brooklyn_Nets_newlogo.svg.png"; sourceTree = "<group>"; };
+		E91DCCF2196C1B700002E931 /* AlanAnderson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlanAnderson.png; sourceTree = "<group>"; };
+		E91DCCF4196C1BB20002E931 /* AndrayBlatche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AndrayBlatche.png; sourceTree = "<group>"; };
+		E91DCCF6196C1BD30002E931 /* JasonCollins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JasonCollins.png; sourceTree = "<group>"; };
+		E91DCCF8196C1C430002E931 /* KevinGarnett.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KevinGarnett.png; sourceTree = "<group>"; };
+		E91DCCFA196C1C670002E931 /* MarkelBrown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarkelBrown.png; sourceTree = "<group>"; };
 		E950C6F4196AF3EE00DEBED7 /* Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E950C6F7196AF3EE00DEBED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E950C6F9196AF3EE00DEBED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +131,19 @@
 				E91DCCE2196C18F10002E931 /* Boston_Celtics_Logo.png */,
 			);
 			name = Boston;
+			sourceTree = "<group>";
+		};
+		E91DCCEF196C1AAD0002E931 /* Brooklyn */ = {
+			isa = PBXGroup;
+			children = (
+				E91DCCFA196C1C670002E931 /* MarkelBrown.png */,
+				E91DCCF8196C1C430002E931 /* KevinGarnett.png */,
+				E91DCCF6196C1BD30002E931 /* JasonCollins.png */,
+				E91DCCF4196C1BB20002E931 /* AndrayBlatche.png */,
+				E91DCCF2196C1B700002E931 /* AlanAnderson.png */,
+				E91DCCF0196C1AB50002E931 /* 200px-Brooklyn_Nets_newlogo.svg.png */,
+			);
+			name = Brooklyn;
 			sourceTree = "<group>";
 		};
 		E950C6EB196AF3EE00DEBED7 = {
@@ -199,6 +224,7 @@
 		E950C76E196BE83300DEBED7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E91DCCEF196C1AAD0002E931 /* Brooklyn */,
 				E91DCCEE196C197C0002E931 /* Boston */,
 				E950C76F196BE8B700DEBED7 /* 1404827489_icon-play.png */,
 				E950C770196BE8B700DEBED7 /* 1404827508_basketball.png */,
@@ -297,11 +323,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91DCCF5196C1BB20002E931 /* AndrayBlatche.png in Resources */,
 				E950C710196AF3EE00DEBED7 /* Images.xcassets in Resources */,
 				E91DCCED196C19750002E931 /* KeithBogans.png in Resources */,
 				E950C77A196BF72100DEBED7 /* teamsTest.plist in Resources */,
+				E91DCCFB196C1C670002E931 /* MarkelBrown.png in Resources */,
 				E91DCCEB196C19750002E931 /* ChrisBabb.png in Resources */,
+				E91DCCF9196C1C430002E931 /* KevinGarnett.png in Resources */,
 				E950C772196BE8B700DEBED7 /* 1404827508_basketball.png in Resources */,
+				E91DCCF3196C1B700002E931 /* AlanAnderson.png in Resources */,
 				E91DCCE9196C19750002E931 /* BrandonBass.png in Resources */,
 				E950C771196BE8B700DEBED7 /* 1404827489_icon-play.png in Resources */,
 				E91DCCEA196C19750002E931 /* JoelAnthony.png in Resources */,
@@ -309,7 +339,9 @@
 				E91DCCEC196C19750002E931 /* JerrydBayless.png in Resources */,
 				E91DCCE3196C18F10002E931 /* Boston_Celtics_Logo.png in Resources */,
 				E950C702196AF3EE00DEBED7 /* InfoPlist.strings in Resources */,
+				E91DCCF1196C1AB50002E931 /* 200px-Brooklyn_Nets_newlogo.svg.png in Resources */,
 				E950C70B196AF3EE00DEBED7 /* Main.storyboard in Resources */,
+				E91DCCF7196C1BD30002E931 /* JasonCollins.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

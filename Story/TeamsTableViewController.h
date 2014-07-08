@@ -10,4 +10,6 @@
 
 @interface TeamsTableViewController : UITableViewController
 
+@property (nonatomic,strong) NSMutableArray *teams;
+
 @end

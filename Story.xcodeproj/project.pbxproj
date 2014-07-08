@@ -21,6 +21,10 @@
 		E950C719196AF3EE00DEBED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6FB196AF3EE00DEBED7 /* UIKit.framework */; };
 		E950C721196AF3EE00DEBED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E950C71F196AF3EE00DEBED7 /* InfoPlist.strings */; };
 		E950C723196AF3EE00DEBED7 /* StoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E950C722196AF3EE00DEBED7 /* StoryTests.m */; };
+		E950C771196BE8B700DEBED7 /* 1404827489_icon-play.png in Resources */ = {isa = PBXBuildFile; fileRef = E950C76F196BE8B700DEBED7 /* 1404827489_icon-play.png */; };
+		E950C772196BE8B700DEBED7 /* 1404827508_basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = E950C770196BE8B700DEBED7 /* 1404827508_basketball.png */; };
+		E950C775196BE9E100DEBED7 /* TeamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950C774196BE9E100DEBED7 /* TeamsTableViewController.m */; };
+		E950C778196BEB9000DEBED7 /* teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = E950C777196BEB9000DEBED7 /* teams.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		E950C71E196AF3EE00DEBED7 /* StoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryTests-Info.plist"; sourceTree = "<group>"; };
 		E950C720196AF3EE00DEBED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E950C722196AF3EE00DEBED7 /* StoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryTests.m; sourceTree = "<group>"; };
+		E950C76F196BE8B700DEBED7 /* 1404827489_icon-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1404827489_icon-play.png"; sourceTree = "<group>"; };
+		E950C770196BE8B700DEBED7 /* 1404827508_basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1404827508_basketball.png; sourceTree = "<group>"; };
+		E950C773196BE9E100DEBED7 /* TeamsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamsTableViewController.h; path = Story/TeamsTableViewController.h; sourceTree = "<group>"; };
+		E950C774196BE9E100DEBED7 /* TeamsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamsTableViewController.m; path = Story/TeamsTableViewController.m; sourceTree = "<group>"; };
+		E950C777196BEB9000DEBED7 /* teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = teams.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,7 @@
 				E950C71C196AF3EE00DEBED7 /* StoryTests */,
 				E950C6F6196AF3EE00DEBED7 /* Frameworks */,
 				E950C6F5196AF3EE00DEBED7 /* Products */,
+				E950C776196BE9F400DEBED7 /* UIControls */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +136,7 @@
 		E950C6FE196AF3EE00DEBED7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E950C76E196BE83300DEBED7 /* Images */,
 				E950C6FF196AF3EE00DEBED7 /* Story-Info.plist */,
 				E950C700196AF3EE00DEBED7 /* InfoPlist.strings */,
 				E950C703196AF3EE00DEBED7 /* main.m */,
@@ -150,6 +161,25 @@
 				E950C71F196AF3EE00DEBED7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E950C76E196BE83300DEBED7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E950C76F196BE8B700DEBED7 /* 1404827489_icon-play.png */,
+				E950C770196BE8B700DEBED7 /* 1404827508_basketball.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E950C776196BE9F400DEBED7 /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+				E950C773196BE9E100DEBED7 /* TeamsTableViewController.h */,
+				E950C774196BE9E100DEBED7 /* TeamsTableViewController.m */,
+				E950C777196BEB9000DEBED7 /* teams.plist */,
+			);
+			name = UIControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +259,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E950C710196AF3EE00DEBED7 /* Images.xcassets in Resources */,
+				E950C772196BE8B700DEBED7 /* 1404827508_basketball.png in Resources */,
+				E950C771196BE8B700DEBED7 /* 1404827489_icon-play.png in Resources */,
+				E950C778196BEB9000DEBED7 /* teams.plist in Resources */,
 				E950C702196AF3EE00DEBED7 /* InfoPlist.strings in Resources */,
 				E950C70B196AF3EE00DEBED7 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +284,7 @@
 			files = (
 				E950C70E196AF3EE00DEBED7 /* ViewController.m in Sources */,
 				E950C708196AF3EE00DEBED7 /* AppDelegate.m in Sources */,
+				E950C775196BE9E100DEBED7 /* TeamsTableViewController.m in Sources */,
 				E950C704196AF3EE00DEBED7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +490,7 @@
 				E950C728196AF3EE00DEBED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E950C729196AF3EE00DEBED7 /* Build configuration list for PBXNativeTarget "StoryTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +499,7 @@
 				E950C72B196AF3EE00DEBED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

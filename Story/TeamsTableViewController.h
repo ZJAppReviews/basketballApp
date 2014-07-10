@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "PlayersTableViewController.h"
+#import "MainModel.h"
+#import "addTeamViewController.h"
 
-@interface TeamsTableViewController : UITableViewController
+@interface TeamsTableViewController : UITableViewController <AddTeamViewControllerDelegate>
 
-@property (nonatomic,strong) NSMutableArray *teams;
+@property (nonatomic,strong) MainModel *model;
 
 @end

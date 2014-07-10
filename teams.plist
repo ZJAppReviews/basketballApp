@@ -9,8 +9,8 @@
 			<string>Boston Celtics</string>
 			<key>rating</key>
 			<string>8</string>
-			<key>icon</key>
-			<string>Boston_Celtics_Logo</string>
+			<key>logo</key>
+			<string>BostonCelticsLogo</string>
 			<key>players</key>
 			<array>
 				<dict>
@@ -80,8 +80,8 @@
 			<string>Brooklyn Nets</string>
 			<key>rating</key>
 			<string>5</string>
-			<key>icon</key>
-			<string>200px-Brooklyn_Nets_newlogo.svg</string>
+			<key>logo</key>
+			<string>BrooklynNetsLogo</string>
 			<key>players</key>
 			<array>
 				<dict>
@@ -143,6 +143,219 @@
 					<string>14</string>
 					<key>info</key>
 					<string>1992–01–29</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>New York Knicks</string>
+			<key>rating</key>
+			<string>7</string>
+			<key>logo</key>
+			<string>NewYorkKnicksLogo</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string>ColeAldrich</string>
+					<key>number</key>
+					<string>45</string>
+					<key>name</key>
+					<string>Aldrich, Cole</string>
+					<key>scores</key>
+					<string>11</string>
+					<key>info</key>
+					<string>1988-10-31</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>ThanasisAntetokounmpo</string>
+					<key>number</key>
+					<string>43</string>
+					<key>name</key>
+					<string>Antetokounmpo, Thanasis</string>
+					<key>scores</key>
+					<string>20</string>
+					<key>info</key>
+					<string>1992-07-17</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>CarmeloAnthony</string>
+					<key>number</key>
+					<string>7</string>
+					<key>name</key>
+					<string>Anthony,Carmelo</string>
+					<key>scores</key>
+					<string>24</string>
+					<key>info</key>
+					<string>1984-05-29</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>AndreaBargnani</string>
+					<key>number</key>
+					<string>77</string>
+					<key>name</key>
+					<string>Bargnani, Andrea</string>
+					<key>scores</key>
+					<string>30</string>
+					<key>info</key>
+					<string>1985-10-26</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>ShannonBrown</string>
+					<key>number</key>
+					<string>26</string>
+					<key>name</key>
+					<string>Brown, Shannon</string>
+					<key>scores</key>
+					<string>8</string>
+					<key>info</key>
+					<string>1985-11-29</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Philadelphia 76ers</string>
+			<key>rating</key>
+			<string>3</string>
+			<key>logo</key>
+			<string>Philadelphia76ersLogo</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string>JamesAnderson</string>
+					<key>number</key>
+					<string>9</string>
+					<key>name</key>
+					<string>Anderson, James</string>
+					<key>scores</key>
+					<string>18</string>
+					<key>info</key>
+					<string>1989-03-25</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>MichaelCarter-Williams</string>
+					<key>number</key>
+					<string>1</string>
+					<key>name</key>
+					<string>Carter-Williams, Michael</string>
+					<key>scores</key>
+					<string>17</string>
+					<key>info</key>
+					<string>1991-10-10</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>BrandonDavies</string>
+					<key>number</key>
+					<string>20</string>
+					<key>name</key>
+					<string>Davies, Brandon</string>
+					<key>scores</key>
+					<string>28</string>
+					<key>info</key>
+					<string>1991-07-25</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>ArnettMoultrie</string>
+					<key>number</key>
+					<string>5</string>
+					<key>name</key>
+					<string>Moultrie, Arnett</string>
+					<key>scores</key>
+					<string>24</string>
+					<key>info</key>
+					<string>1990-11-18</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>ByronMullens</string>
+					<key>number</key>
+					<string>30</string>
+					<key>name</key>
+					<string>Mullens, Byron</string>
+					<key>scores</key>
+					<string>16</string>
+					<key>info</key>
+					<string>1989-02-14</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Toronto Raptors</string>
+			<key>rating</key>
+			<string>6</string>
+			<key>logo</key>
+			<string>TorontoRaptorsLogo</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>photo</key>
+					<string>DwightBuycks</string>
+					<key>number</key>
+					<string>13</string>
+					<key>name</key>
+					<string>Buycks, Dwight</string>
+					<key>scores</key>
+					<string>20</string>
+					<key>info</key>
+					<string>1989-03-06</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>NandoDeColo</string>
+					<key>number</key>
+					<string>3</string>
+					<key>name</key>
+					<string>De Colo, Nando</string>
+					<key>scores</key>
+					<string>19</string>
+					<key>info</key>
+					<string>1987-06-23</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>DeMarDeRozan</string>
+					<key>number</key>
+					<string>10</string>
+					<key>name</key>
+					<string>DeRozan, DeMar</string>
+					<key>scores</key>
+					<string>30</string>
+					<key>info</key>
+					<string>1989-08-07</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>LandryFields</string>
+					<key>number</key>
+					<string>2</string>
+					<key>name</key>
+					<string>Fields, Landry</string>
+					<key>scores</key>
+					<string>11</string>
+					<key>info</key>
+					<string>1988-06-27</string>
+				</dict>
+				<dict>
+					<key>photo</key>
+					<string>ChuckHayes</string>
+					<key>number</key>
+					<string>44</string>
+					<key>name</key>
+					<string>Hayes, Chuck</string>
+					<key>scores</key>
+					<string>25</string>
+					<key>info</key>
+					<string>1983-06-11</string>
 				</dict>
 			</array>
 		</dict>

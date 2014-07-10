@@ -7,6 +7,7 @@
 //
 
 #import "PlayersTableViewController.h"
+#import "PlayerTableViewCell.h"
 
 @interface PlayersTableViewController ()
 
@@ -49,27 +50,26 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.players count];
+    return [self.model.selectedTeam.players count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell" forIndexPath:indexPath];
+    PlayerTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell" forIndexPath:indexPath];
     
-    UIImageView *playerPhoto = (UIImageView*)[cell viewWithTag:0];
-    NSString *path = [[NSBundle mainBundle] pathForResource:[[self.players objectAtIndex:indexPath.row]objectForKey:@"photo"] ofType:@"png"];
-    playerPhoto.image = [UIImage imageWithContentsOfFile:path];
-    
-    UILabel *nameLabel = (UILabel*)[cell viewWithTag:1];
-    nameLabel.text = [[self.players objectAtIndex:indexPath.row]objectForKey:@"name"];
-    
-    UILabel *scoresLabel = (UILabel*)[cell viewWithTag:2];
-    scoresLabel.text = [[self.players objectAtIndex:indexPath.row]objectForKey:@"scores"];
-    
-    cell.tag = indexPath.row;
+    PlayerModel *player = [self.model.selectedTeam.players objectAtIndex:indexPath.row];
+
+    cell.photo.image = player.photo;
+    cell.nameLabel.text = player.name;
+    cell.numberLabel.text = player.number;
     
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.model.selectedPlayer = [self.model.selectedTeam.players objectAtIndex:indexPath.row];
 }
 
 /*
@@ -115,9 +115,9 @@
 
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
- PlayerDetailTableViewController *nextVC = segue.destinationViewController;
- UITableViewCell *cell = (UITableViewCell*)sender;
- nextVC.player = [self.players objectAtIndex:cell.tag];
+    PlayerDetailTableViewController *nextVC = segue.destinationViewController;
+    nextVC.model = [[MainModel alloc]init];
+    nextVC.model = self.model;
 }
 
 

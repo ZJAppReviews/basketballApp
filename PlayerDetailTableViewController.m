@@ -26,13 +26,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = [self.player objectForKey:@"name"];
-    NSString *path = [[NSBundle mainBundle] pathForResource:[self.player objectForKey:@"photo"] ofType:@"png"];
-    self.playerPhoto.image = [UIImage imageWithContentsOfFile:path];
-    self.nameLabel.text = [self.player objectForKey:@"name"];
-    self.numberLabel.text = [self.player objectForKey:@"number"];
-    self.scoresLabel.text = [self.player objectForKey:@"scores"];
-    self.infoLabel.text = [self.player objectForKey:@"info"];
+    self.title = self.model.selectedPlayer.name;
+    self.playerPhoto.image = self.model.selectedPlayer.photo;
+    self.nameLabel.text = self.model.selectedPlayer.name;
+    self.numberLabel.text = self.model.selectedPlayer.number;
+    self.scoresLabel.text = self.model.selectedPlayer.scores;
+    self.infoLabel.text = self.model.selectedPlayer.info;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

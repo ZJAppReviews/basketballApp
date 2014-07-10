@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "PlayerDetailTableViewController.h"
+#import "MainModel.h"
 
 @interface PlayersTableViewController : UITableViewController
 
-@property (nonatomic, strong) NSMutableArray *players;
+@property (nonatomic, strong) MainModel *model;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainModel.h"
 
 @interface PlayerDetailTableViewController : UITableViewController
 
@@ -16,6 +17,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *scoresLabel;
 @property (weak, nonatomic) IBOutlet UILabel *infoLabel;
 
-@property (nonatomic, strong) NSDictionary *player;
-
+@property (strong, nonatomic) MainModel *model;
 @end

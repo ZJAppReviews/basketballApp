@@ -7,6 +7,7 @@
 //
 
 #import "TeamsTableViewController.h"
+#import "PlayerTableViewCell.h"
 
 @interface TeamsTableViewController ()
 
@@ -25,12 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"teams" ofType:@"plist"];
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    self.teams = [NSMutableArray arrayWithArray: [dict objectForKey:@"Teams"]];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
+    self.model = [[MainModel alloc]init];
+    [self.model readFromFile];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -50,29 +47,42 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.teams count];
+    return [self.model.teams count];
     return 0;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TeamCell" forIndexPath:indexPath];
+    PlayerTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TeamCell" forIndexPath:indexPath];
     
-    UIImageView *teamLogo = (UIImageView*)[cell viewWithTag:0];
-    NSString *path = [[NSBundle mainBundle] pathForResource:[[self.teams objectAtIndex:indexPath.row]objectForKey:@"icon"] ofType:@"png"];
-    teamLogo.image = [UIImage imageWithContentsOfFile:path];
+    TeamModel *team = [self.model.teams objectAtIndex:indexPath.row];
     
-    UILabel *nameLabel = (UILabel*)[cell viewWithTag:1];
-    nameLabel.text = [[self.teams objectAtIndex:indexPath.row]objectForKey:@"name"];
-    
-    UILabel *ratingLabel = (UILabel*)[cell viewWithTag:2];
-    ratingLabel.text = [[self.teams objectAtIndex:indexPath.row]objectForKey:@"rating"];
-    
-    cell.tag = indexPath.row;
+    cell.photo.image = team.logo;
+    cell.nameLabel.text = team.name;
+    cell.numberLabel.text = team.rating;
     
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.model.selectedTeam = [self.model.teams objectAtIndex:indexPath.row];
+}
+
+#pragma - AddTeamDelegate
+
+-(void)addTeamViewControllerDidCancel:(addTeamViewController *)controller
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void)addTeamViewControllerDidSave:(addTeamViewController *)controller
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.tableView reloadData];
+}
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -116,9 +126,19 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    PlayersTableViewController *nextVC = segue.destinationViewController;
-    UITableViewCell *cell = (UITableViewCell*)sender;
-    nextVC.players = [[self.teams objectAtIndex:cell.tag]objectForKey:@"players"];
+    if ([segue.identifier isEqualToString:@"toPlayersView"])
+    {
+        PlayersTableViewController *nextVC = segue.destinationViewController;
+        nextVC.model = [[MainModel alloc]init];
+        nextVC.model = self.model;
+    }
+    else if([segue.identifier isEqualToString:@"addTeam"])
+    {
+        UINavigationController *controller = segue.destinationViewController;
+        addTeamViewController *addTeam = [controller viewControllers][0];
+        addTeam.model = self.model;
+        addTeam.delegate = self;
+    }
 }
 
 @end

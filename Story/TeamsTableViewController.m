@@ -57,11 +57,14 @@
     PlayerTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TeamCell" forIndexPath:indexPath];
     
     TeamModel *team = [self.model.teams objectAtIndex:indexPath.row];
-    
-    cell.photo.image = team.logo;
-    cell.nameLabel.text = team.name;
-    cell.numberLabel.text = team.rating;
-    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        UIImage *logo = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:team.logo]]];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            cell.photo.image = logo;
+            cell.nameLabel.text = team.name;
+            cell.numberLabel.text = team.rating;
+        });
+            });
     return cell;
 }
 

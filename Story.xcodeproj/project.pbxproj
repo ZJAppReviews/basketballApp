@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E91DCCE1196C15610002E931 /* PlayerDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91DCCE0196C15610002E931 /* PlayerDetailTableViewController.m */; };
-		E91DCCF1196C1AB50002E931 /* BrooklynNetsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E91DCCF0196C1AB50002E931 /* BrooklynNetsLogo.png */; };
 		E91DCCFD196C20EE0002E931 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91DCCFC196C20EE0002E931 /* MediaPlayer.framework */; };
 		E91DCD00196C21050002E931 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91DCCFF196C21050002E931 /* MediaViewController.m */; };
 		E91DCD03196C29040002E931 /* PlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E91DCD02196C29040002E931 /* PlayerTableViewCell.m */; };
@@ -29,18 +28,15 @@
 		E93FD9BD196E84AC008BC857 /* CarmeloAnthony.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9B8196E84AC008BC857 /* CarmeloAnthony.png */; };
 		E93FD9BE196E84AC008BC857 /* ShannonBrown.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9B9196E84AC008BC857 /* ShannonBrown.png */; };
 		E93FD9BF196E84AC008BC857 /* ColeAldrich.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9BA196E84AC008BC857 /* ColeAldrich.png */; };
-		E93FD9C1196E84DD008BC857 /* NewYorkKnicksLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9C0196E84DD008BC857 /* NewYorkKnicksLogo.png */; };
 		E93FD9C9196E8674008BC857 /* JamesAnderson.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9C4196E8674008BC857 /* JamesAnderson.png */; };
 		E93FD9CA196E8674008BC857 /* ArnettMoultrie.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9C5196E8674008BC857 /* ArnettMoultrie.png */; };
 		E93FD9CB196E8674008BC857 /* MichaelCarter-Williams.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9C6196E8674008BC857 /* MichaelCarter-Williams.png */; };
 		E93FD9CC196E8674008BC857 /* BrandonDavies.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9C7196E8674008BC857 /* BrandonDavies.png */; };
 		E93FD9CD196E8674008BC857 /* ByronMullens.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9C8196E8674008BC857 /* ByronMullens.png */; };
-		E93FD9CF196E86C3008BC857 /* Philadelphia76ersLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9CE196E86C3008BC857 /* Philadelphia76ersLogo.png */; };
 		E93FD9D7196E8851008BC857 /* ChuckHayes.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9D1196E8851008BC857 /* ChuckHayes.png */; };
 		E93FD9D8196E8851008BC857 /* DwightBuycks.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9D2196E8851008BC857 /* DwightBuycks.png */; };
 		E93FD9D9196E8851008BC857 /* DeMarDeRozan.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9D3196E8851008BC857 /* DeMarDeRozan.png */; };
 		E93FD9DA196E8851008BC857 /* NandoDeColo.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9D4196E8851008BC857 /* NandoDeColo.png */; };
-		E93FD9DB196E8851008BC857 /* TorontoRaptorsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9D5196E8851008BC857 /* TorontoRaptorsLogo.png */; };
 		E93FD9DC196E8851008BC857 /* LandryFields.png in Resources */ = {isa = PBXBuildFile; fileRef = E93FD9D6196E8851008BC857 /* LandryFields.png */; };
 		E950C6F8196AF3EE00DEBED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6F7196AF3EE00DEBED7 /* Foundation.framework */; };
 		E950C6FA196AF3EE00DEBED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E950C6F9196AF3EE00DEBED7 /* CoreGraphics.framework */; };
@@ -63,7 +59,6 @@
 		E950C780196BFBAC00DEBED7 /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950C77F196BFBAC00DEBED7 /* PlayersTableViewController.m */; };
 		E996AA3E196D232100713ECC /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E996AA3D196D232100713ECC /* PlayerModel.m */; };
 		E996AA41196D5E8200713ECC /* TeamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E996AA40196D5E8200713ECC /* TeamModel.m */; };
-		E9D7F549196D70FE004DF444 /* BostonCelticsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D7F548196D70FE004DF444 /* BostonCelticsLogo.png */; };
 		E9D7F54B196D713A004DF444 /* Plus-png.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D7F54A196D713A004DF444 /* Plus-png.png */; };
 /* End PBXBuildFile section */
 
@@ -80,7 +75,6 @@
 /* Begin PBXFileReference section */
 		E91DCCDF196C15610002E931 /* PlayerDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailTableViewController.h; sourceTree = "<group>"; };
 		E91DCCE0196C15610002E931 /* PlayerDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailTableViewController.m; sourceTree = "<group>"; };
-		E91DCCF0196C1AB50002E931 /* BrooklynNetsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrooklynNetsLogo.png; sourceTree = "<group>"; };
 		E91DCCFC196C20EE0002E931 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		E91DCCFE196C21040002E931 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
 		E91DCCFF196C21050002E931 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
@@ -105,18 +99,15 @@
 		E93FD9B8196E84AC008BC857 /* CarmeloAnthony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarmeloAnthony.png; sourceTree = "<group>"; };
 		E93FD9B9196E84AC008BC857 /* ShannonBrown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShannonBrown.png; sourceTree = "<group>"; };
 		E93FD9BA196E84AC008BC857 /* ColeAldrich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColeAldrich.png; sourceTree = "<group>"; };
-		E93FD9C0196E84DD008BC857 /* NewYorkKnicksLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewYorkKnicksLogo.png; sourceTree = "<group>"; };
 		E93FD9C4196E8674008BC857 /* JamesAnderson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesAnderson.png; sourceTree = "<group>"; };
 		E93FD9C5196E8674008BC857 /* ArnettMoultrie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArnettMoultrie.png; sourceTree = "<group>"; };
 		E93FD9C6196E8674008BC857 /* MichaelCarter-Williams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MichaelCarter-Williams.png"; sourceTree = "<group>"; };
 		E93FD9C7196E8674008BC857 /* BrandonDavies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrandonDavies.png; sourceTree = "<group>"; };
 		E93FD9C8196E8674008BC857 /* ByronMullens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ByronMullens.png; sourceTree = "<group>"; };
-		E93FD9CE196E86C3008BC857 /* Philadelphia76ersLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Philadelphia76ersLogo.png; sourceTree = "<group>"; };
 		E93FD9D1196E8851008BC857 /* ChuckHayes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChuckHayes.png; sourceTree = "<group>"; };
 		E93FD9D2196E8851008BC857 /* DwightBuycks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DwightBuycks.png; sourceTree = "<group>"; };
 		E93FD9D3196E8851008BC857 /* DeMarDeRozan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeMarDeRozan.png; sourceTree = "<group>"; };
 		E93FD9D4196E8851008BC857 /* NandoDeColo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NandoDeColo.png; sourceTree = "<group>"; };
-		E93FD9D5196E8851008BC857 /* TorontoRaptorsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TorontoRaptorsLogo.png; sourceTree = "<group>"; };
 		E93FD9D6196E8851008BC857 /* LandryFields.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandryFields.png; sourceTree = "<group>"; };
 		E950C6F4196AF3EE00DEBED7 /* Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E950C6F7196AF3EE00DEBED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,7 +139,6 @@
 		E996AA3D196D232100713ECC /* PlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
 		E996AA3F196D5E8200713ECC /* TeamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamModel.h; path = Story/TeamModel.h; sourceTree = "<group>"; };
 		E996AA40196D5E8200713ECC /* TeamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamModel.m; path = Story/TeamModel.m; sourceTree = "<group>"; };
-		E9D7F548196D70FE004DF444 /* BostonCelticsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BostonCelticsLogo.png; sourceTree = "<group>"; };
 		E9D7F54A196D713A004DF444 /* Plus-png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-png.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,7 +175,6 @@
 				E93FD9A0196E825E008BC857 /* KeithBogans.png */,
 				E93FD9A2196E825E008BC857 /* JoelAnthony.png */,
 				E93FD9A3196E825E008BC857 /* JerrydBayless.png */,
-				E9D7F548196D70FE004DF444 /* BostonCelticsLogo.png */,
 			);
 			name = Boston;
 			sourceTree = "<group>";
@@ -198,7 +187,6 @@
 				E93FD9AD196E8318008BC857 /* MarkelBrown.png */,
 				E93FD9AE196E8318008BC857 /* AlanAnderson.png */,
 				E93FD9AF196E8318008BC857 /* JasonCollins.png */,
-				E91DCCF0196C1AB50002E931 /* BrooklynNetsLogo.png */,
 			);
 			name = Brooklyn;
 			sourceTree = "<group>";
@@ -206,7 +194,6 @@
 		E93FD9B5196E833B008BC857 /* New York */ = {
 			isa = PBXGroup;
 			children = (
-				E93FD9C0196E84DD008BC857 /* NewYorkKnicksLogo.png */,
 				E93FD9B6196E84AC008BC857 /* AndreaBargnani.png */,
 				E93FD9B7196E84AC008BC857 /* ThanasisAntetokounmpo.png */,
 				E93FD9B8196E84AC008BC857 /* CarmeloAnthony.png */,
@@ -219,7 +206,6 @@
 		E93FD9C3196E866C008BC857 /* Philadelphia */ = {
 			isa = PBXGroup;
 			children = (
-				E93FD9CE196E86C3008BC857 /* Philadelphia76ersLogo.png */,
 				E93FD9C4196E8674008BC857 /* JamesAnderson.png */,
 				E93FD9C5196E8674008BC857 /* ArnettMoultrie.png */,
 				E93FD9C6196E8674008BC857 /* MichaelCarter-Williams.png */,
@@ -236,7 +222,6 @@
 				E93FD9D2196E8851008BC857 /* DwightBuycks.png */,
 				E93FD9D3196E8851008BC857 /* DeMarDeRozan.png */,
 				E93FD9D4196E8851008BC857 /* NandoDeColo.png */,
-				E93FD9D5196E8851008BC857 /* TorontoRaptorsLogo.png */,
 				E93FD9D6196E8851008BC857 /* LandryFields.png */,
 			);
 			name = Toronto;
@@ -440,20 +425,17 @@
 				E93FD9BD196E84AC008BC857 /* CarmeloAnthony.png in Resources */,
 				E93FD9CA196E8674008BC857 /* ArnettMoultrie.png in Resources */,
 				E950C710196AF3EE00DEBED7 /* Images.xcassets in Resources */,
-				E9D7F549196D70FE004DF444 /* BostonCelticsLogo.png in Resources */,
 				E93FD9BC196E84AC008BC857 /* ThanasisAntetokounmpo.png in Resources */,
 				E93FD9DC196E8851008BC857 /* LandryFields.png in Resources */,
 				E950C772196BE8B700DEBED7 /* 1404827508_basketball.png in Resources */,
 				E9D7F54B196D713A004DF444 /* Plus-png.png in Resources */,
 				E93FD9D9196E8851008BC857 /* DeMarDeRozan.png in Resources */,
-				E93FD9C1196E84DD008BC857 /* NewYorkKnicksLogo.png in Resources */,
 				E93FD9D7196E8851008BC857 /* ChuckHayes.png in Resources */,
 				E93FD9AA196E8277008BC857 /* ChrisBabb.png in Resources */,
 				E93FD9BB196E84AC008BC857 /* AndreaBargnani.png in Resources */,
 				E93FD9B1196E8318008BC857 /* AndrayBlatche.png in Resources */,
 				E93FD9A7196E825E008BC857 /* JoelAnthony.png in Resources */,
 				E93FD9CC196E8674008BC857 /* BrandonDavies.png in Resources */,
-				E93FD9CF196E86C3008BC857 /* Philadelphia76ersLogo.png in Resources */,
 				E950C771196BE8B700DEBED7 /* 1404827489_icon-play.png in Resources */,
 				E93FD9A8196E825E008BC857 /* JerrydBayless.png in Resources */,
 				E93FD9BE196E84AC008BC857 /* ShannonBrown.png in Resources */,
@@ -461,12 +443,10 @@
 				E950C778196BEB9000DEBED7 /* teams.plist in Resources */,
 				E93FD9C9196E8674008BC857 /* JamesAnderson.png in Resources */,
 				E950C702196AF3EE00DEBED7 /* InfoPlist.strings in Resources */,
-				E91DCCF1196C1AB50002E931 /* BrooklynNetsLogo.png in Resources */,
 				E93FD9CB196E8674008BC857 /* MichaelCarter-Williams.png in Resources */,
 				E950C70B196AF3EE00DEBED7 /* Main.storyboard in Resources */,
 				E93FD9CD196E8674008BC857 /* ByronMullens.png in Resources */,
 				E93FD9A4196E825E008BC857 /* BrandonBass.png in Resources */,
-				E93FD9DB196E8851008BC857 /* TorontoRaptorsLogo.png in Resources */,
 				E93FD9B4196E8318008BC857 /* JasonCollins.png in Resources */,
 				E93FD9BF196E84AC008BC857 /* ColeAldrich.png in Resources */,
 				E93FD9B0196E8318008BC857 /* KevinGarnett.png in Resources */,

@@ -24,4 +24,11 @@
     }
 }
 
+-(NSMutableDictionary*)getDict
+{
+    NSMutableDictionary *data = [[NSMutableDictionary alloc]init];
+    [data setObject:self forKey:@"Teams"];
+    return data;
+}
+
 @end

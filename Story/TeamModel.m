@@ -17,8 +17,7 @@
     {
         self.name = [dict objectForKey:@"name"];
         self.rating = [dict objectForKey:@"rating"];
-        NSString *path = [[NSBundle mainBundle] pathForResource:[dict objectForKey:@"logo"] ofType:@"png"];
-        self.logo = [UIImage imageWithContentsOfFile:path];
+        self.logo = [dict objectForKey:@"logo"];
         self.players = [[NSMutableArray alloc]init];
         for (NSDictionary* p in [dict objectForKey:@"players"])
         {

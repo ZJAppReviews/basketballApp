@@ -14,7 +14,7 @@
 @property (strong, nonatomic) NSString *number;
 @property (strong, nonatomic) NSString *info;
 @property (strong, nonatomic) NSString *scores;
-@property (strong, nonatomic) UIImage *photo;
+@property (strong, nonatomic) NSString *photo;
 
 -(id)initWithDictionary:(NSDictionary *)dict;
 

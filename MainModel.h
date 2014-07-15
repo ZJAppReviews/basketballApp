@@ -18,4 +18,6 @@
 
 -(void)readFromFile;
 
+-(NSMutableDictionary*) getDict;
+
 @end

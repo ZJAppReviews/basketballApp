@@ -19,8 +19,7 @@
         self.number = [dict objectForKey:@"number"];
         self.info = [dict objectForKey:@"info"];
         self.scores = [dict objectForKey:@"scores"];
-        NSString *path = [[NSBundle mainBundle] pathForResource:[dict objectForKey:@"photo"] ofType:@"png"];
-        self.photo = [UIImage imageWithContentsOfFile:path];
+        self.photo = [dict objectForKey:@"photo"];
     }
     return self;
 }

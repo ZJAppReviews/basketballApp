@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *rating;
-@property (nonatomic, strong) UIImage *logo;
+@property (nonatomic, strong) NSString *logo;
 @property (nonatomic, strong) NSMutableArray *players;
 
 -(id) initWithDictionary:(NSDictionary*) dict;
